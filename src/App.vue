@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <RickAndMorty />
-    <InformacionEstudiante />
+    <router-view></router-view>
   </div>
 </template>
 
+<script>
+import { defineComponent } from 'vue';
 
-<script setup>
-  import InformacionEstudiante from './components/InformacionEstudiante.vue';
-  import RickAndMorty from './components/RickAndMorty.vue';
-  import '@fortawesome/fontawesome-free/css/all.css';
-
+export default defineComponent({
+  name: 'App'
+});
 </script>
 
 <style>

@@ -1,23 +1,23 @@
+// src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../views/HomeView.vue';
-import InformacionEstudiante from '@/components/InformacionEstudiante.vue';
-
+import RickAndMorty from '../components/RickAndMorty.vue';
+import InformacionEstudiante from '../components/InformacionEstudiante.vue';
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: HomeView
+    name: 'Inicio',
+    component: RickAndMorty
   },
   {
-    path: '/InformacionEstudiante',
+    path: '/info',
     name: 'InformacionEstudiante',
     component: InformacionEstudiante
   }
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(),
   routes
 });
 
