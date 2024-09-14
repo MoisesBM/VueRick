@@ -1,7 +1,7 @@
 <!-- src/components/RickAndMorty.vue -->
 <template>
     <div>
-      <header>
+      <!-- <header>
         <h1 style="color: #67b5e6;">Rick And Morty</h1>
         <nav>
           <ul>
@@ -13,7 +13,7 @@
             </div>
           </ul>
         </nav>
-      </header>
+      </header> -->
       <main>
         <section id="inicio">
           <div id="charactersContainer" class="characters-container">
@@ -54,9 +54,9 @@
       getFilesFromApi();
     });
   
-    const toggleMenu = () => {
-      // Implementa la lógica para el menú hamburguesa si es necesario
-    };
+    // const toggleMenu = () => {
+    //   // Implementa la lógica para el menú hamburguesa si es necesario
+    // };
   </script>
   
   <style scoped>

@@ -1,14 +1,20 @@
 <template>
   <div id="app">
+    <AppNavegador />
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
+import AppNavegador from './components/AppNavegador.vue';
+
 
 export default defineComponent({
-  name: 'App'
+  name: 'App',
+  components: {
+    AppNavegador, 
+  },
 });
 </script>
 

@@ -2,6 +2,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import RickAndMorty from '../components/RickAndMorty.vue';
 import InformacionEstudiante from '../components/InformacionEstudiante.vue';
+import AppShop from '@/components/AppShop.vue';
 
 const routes = [
   {
@@ -13,7 +14,13 @@ const routes = [
     path: '/info',
     name: 'InformacionEstudiante',
     component: InformacionEstudiante
+  },
+  {
+    path: '/shop',
+    name: 'AppShop',
+    component: AppShop
   }
+
 ];
 
 const router = createRouter({

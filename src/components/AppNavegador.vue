@@ -1,55 +1,30 @@
-<!-- src/components/InformacionEstudiante.vue -->
 <template>
-    <div>
-      
+
+    <header>
+        <h1>Rick And Morty</h1>
+        <nav>
+          <ul>
+            <li><a href="/"><i class="fas fa-home"></i>Inicio</a></li>
+            <li><a href="/shop"><i class="fas fa-store"></i>Shop</a></li>
+            <li><a href="/info"><i class="fa-sharp-duotone fa-solid fa-circle-exclamation"></i>Informacion</a></li>
+            <div class="menu-hamburger" @click="toggleMenu">
+              <i class="fas fa-bars"></i>
+            </div>
+          </ul>
+        </nav>
+    </header>
+    
+</template>
+
+<script>
   
-      <main>
-        <div class="container">
-          <div class="info-container">
-            <img :src="datos.perfil" alt="persona" />
-            <h2>Información de Desarrollador:</h2>
-            <p><span class="desarrollo">Nombre:</span> <span>{{ datos.nombre }}</span></p>
-            <p><span class="desarrollo">Carrera:</span> <span>{{ datos.carrera }}</span></p>
-            <p><span class="desarrollo">Celular:</span> <span>{{ datos.celular }}</span></p>
-            <p><span class="desarrollo">Cédula:</span> <span>{{ datos.id }}</span></p>
-            <p><span class="desarrollo">Empresa:</span> <span>{{ datos.trabajo }}</span></p>
-            <a :href="`mailto:${datos.email}`" class="contactar-btn">Contactar</a>
-          </div>
-          <div class="info-container">
-            <img src="@/assets/rick.jpg" alt="usc" />
-            <h2>Universidad Santiago de Cali</h2>
-            <p><span class="desarrollo">Facultad de Ingeniería</span></p>
-            <p><span class="desarrollo">Curso:</span> Programación Orientada a la Web</p>
-            <p><span class="desarrollo">Entrega:</span> 11 / 09 / 24</p>
-          </div>
-        </div>
-      </main>
-    </div>
-  </template>
-  
-  <script setup>
-  import { ref, onMounted } from 'vue';
-  
-  const datos = ref({
-    nombre: "Moises Buitrago Mosquera",
-    carrera: "Ingeniería de Sistemas",
-    celular: "3128724843",
-    id: "1006100506",
-    trabajo: "Arcos Dorados S.A.S",
-    email: "moises.buitrago00@usc.edu.co",
-    perfil: "imagenes/persona.png"
-  });
-  
-  // const toggleMenu = () => {
-  //   // Implementa la lógica para el menú hamburguesa si es necesario
-  // };
-  
-  onMounted(() => {
-    // Aquí puedes agregar lógica adicional si es necesario
-  });
-  </script>
-  
-  <style scoped>
+  export default {
+        name: 'AppNavegador', // Rename the component
+    };
+
+</script>
+
+<style scoped>
   body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -212,4 +187,3 @@
     }
   }
   </style>
-  
