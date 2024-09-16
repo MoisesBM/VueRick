@@ -6,7 +6,8 @@
       <main>
         <div class="container">
           <div class="info-container">
-            <img :src="datos.perfil" alt="persona" />
+            <img src="@/assets/persona.png" alt="usc" />
+           <!--<img :src="datos.perfil" alt="persona" />-->
             <h2>Información de Desarrollador:</h2>
             <p><span class="desarrollo">Nombre:</span> <span>{{ datos.nombre }}</span></p>
             <p><span class="desarrollo">Carrera:</span> <span>{{ datos.carrera }}</span></p>
@@ -16,7 +17,7 @@
             <a :href="`mailto:${datos.email}`" class="contactar-btn">Contactar</a>
           </div>
           <div class="info-container">
-            <img src="@/assets/rick.jpg" alt="usc" />
+            <img src="@/assets/descarga.png" alt="usc" />
             <h2>Universidad Santiago de Cali</h2>
             <p><span class="desarrollo">Facultad de Ingeniería</span></p>
             <p><span class="desarrollo">Curso:</span> Programación Orientada a la Web</p>

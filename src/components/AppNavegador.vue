@@ -7,8 +7,8 @@
             <li><a href="/"><i class="fas fa-home"></i>Inicio</a></li>
             <li><a href="/shop"><i class="fas fa-store"></i>Shop</a></li>
             <li><a href="/info"><i class="fa-sharp-duotone fa-solid fa-circle-exclamation"></i>Informacion</a></li>
-            <div class="menu-hamburger" @click="toggleMenu">
-              <i class="fas fa-bars"></i>
+            <div class="menu-hamburger" id="menuToggle">
+              <i class="fa-solid fa-burger"></i>
             </div>
           </ul>
         </nav>
@@ -19,7 +19,7 @@
 <script>
   
   export default {
-        name: 'AppNavegador', // Rename the component
+        name: 'AppNavegador', 
     };
 
 </script>
@@ -186,4 +186,20 @@
       margin-bottom: 15px;
     }
   }
+
+  .menu-hamburger {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .menuToggle {
+        display: block; 
+    }
+}
   </style>
