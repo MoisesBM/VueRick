@@ -29,6 +29,6 @@ export default defineComponent({
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      color: #333;
+      color: #ffffff;
     }
 </style>

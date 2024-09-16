@@ -1,0 +1,108 @@
+[
+    {
+      "id": 1,
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "price": 59.99,
+      "image": "@/assets/zelda.jpg",
+      "description": "Un juego de aventuras en mundo abierto donde los jugadores asumen el rol de Link para salvar a Hyrule."
+    },
+    {
+      "id": 2,
+      "title": "Red Dead Redemption 2",
+      "price": 49.99,
+      "image": "@/assets/games/red.avif",
+      "description": "Un juego de acción en un mundo abierto ambientado en el salvaje oeste, con una narrativa inmersiva."
+    },
+    {
+      "id": 3,
+      "title": "Minecraft",
+      "price": 26.95,
+      "image": "@/assets/games/mine.avif",
+      "description": "Un juego de construcción y supervivencia donde los jugadores pueden crear y explorar mundos generados aleatoriamente."
+    },
+    {
+      "id": 4,
+      "title": "Grand Theft Auto V",
+      "price": 29.99,
+      "image": "https://fotografias.larazon.es/clipping/cmsimages02/2019/08/06/0662D4DE-63F9-4E0F-9705-49EE65CA5F3A/98.jpg?crop=1075,605,x0,y0&width=1900&height=1069&optimize=low&format=webply",
+      "description": "Un juego de mundo abierto donde los jugadores pueden explorar la ciudad ficticia de Los Santos, participar en misiones y actividades variadas."
+    },
+    {
+      "id": 5,
+      "title": "Fortnite",
+      "price": 0,
+      "image": "@/assets/fort.jpg",
+      "description": "Un juego multijugador de batalla real que combina la construcción con la acción en tercera persona."
+    },
+    {
+      "id": 6,
+      "title": "The Witcher 3: Wild Hunt",
+      "price": 39.99,
+      "image": "@/assets/wit.avif",
+      "description": "Un juego de rol en un mundo abierto lleno de criaturas, donde los jugadores encarnan al cazador de monstruos Geralt de Rivia."
+    },
+    {
+      "id": 7,
+      "title": "Cyberpunk 2077",
+      "price": 49.99,
+      "image": "@/assets/cyber.avif",
+      "description": "Un juego de rol y acción ambientado en un futuro distópico donde los jugadores exploran la ciudad de Night City."
+    },
+    {
+      "id": 8,
+      "title": "Animal Crossing: New Horizons",
+      "price": 59.99,
+      "image": "@/assets/animal.jpg",
+      "description": "Un juego de simulación de vida donde los jugadores pueden construir su isla, interactuar con animales y gestionar su comunidad."
+    },
+    {
+      "id": 9,
+      "title": "Call of Duty: Modern Warfare",
+      "price": 59.99,
+      "image": "@/assets/call.jpeg",
+      "description": "Un juego de disparos en primera persona centrado en la guerra moderna, con intensas campañas y modos multijugador."
+    },
+    {
+      "id": 10,
+      "title": "Super Mario Odyssey",
+      "price": 59.99,
+      "image": "@/assets/mario.avif",
+      "description": "Un juego de plataformas en 3D donde Mario viaja por diversos mundos para rescatar a la princesa Peach."
+    },
+    {
+      "id": 11,
+      "title": "Overwatch 2",
+      "price": 39.99,
+      "image": "@/assets/button.jpg",
+      "description": "Un juego multijugador de disparos en equipos, con héroes únicos y habilidades especiales."
+    },
+    {
+      "id": 12,
+      "title": "Hades",
+      "price": 24.99,
+      "image": "@/assets/hades.avif",
+      "description": "Un juego de acción tipo roguelike donde los jugadores intentan escapar del inframundo controlando a Zagreus, el hijo de Hades."
+    },
+    {
+      "id": 13,
+      "title": "Among Us",
+      "price": 4.99,
+      "image": "@/assets/amoung.jpeg",
+      "description": "Un juego multijugador donde los jugadores deben descubrir quién es el impostor mientras completan tareas en una nave espacial."
+    },
+    {
+      "id": 14,
+      "title": "Halo Infinite",
+      "price": 59.99,
+      "image": "@/assets/halo.avif",
+      "description": "Un juego de disparos en primera persona que continúa la legendaria saga de Halo con nuevas mecánicas de combate y mundos abiertos."
+    },
+    {
+      "id": 15,
+      "title": "Resident Evil Village",
+      "price": 59.99,
+      "image": "@/assets/village.jpeg",
+      "description": "Un juego de terror y supervivencia donde los jugadores exploran un oscuro pueblo lleno de peligros y criaturas monstruosas."
+    }
+  ]
+  
