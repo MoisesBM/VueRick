@@ -23,7 +23,7 @@
               <p>{{ character.status }}</p>
               <p>{{ character.gender }}</p>
               <p>{{ character.species }}</p>
-              <a :href="`caps.html?id=${character.id}`" class="btn">DETALLES</a>
+              <a :href="`/CharacterDetails?id=${character.id}`" class="btn">DETALLES</a>
             </div>
           </div>
         </section>
@@ -55,7 +55,7 @@
     });
   
     // const toggleMenu = () => {
-    //   // Implementa la lógica para el menú hamburguesa si es necesario
+    //   // Menu hamburguesa, proximamente se implementara
     // };
   </script>
   
@@ -232,22 +232,6 @@
       #charactersContainer {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-      }
-    }
-  
-    .menu-hamburger {
-      display: flex;
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      font-size: 30px;
-      color: #fff;
-      cursor: pointer;
-    }
-  
-    @media (max-width: 900px) {
-      .menu-toggle {
-        display: block;
       }
     }
   </style>

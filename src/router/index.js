@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import RickAndMorty from '../components/RickAndMorty.vue';
 import InformacionEstudiante from '../components/InformacionEstudiante.vue';
 import AppShop from '@/components/AppShop.vue';
+import CharacterDetails from '@/components/CharacterDetails.vue';
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
     path: '/shop',
     name: 'AppShop',
     component: AppShop
+  },
+  {  
+    path: '/CharacterDetails',
+    name: 'CharacterDetails',
+    component: CharacterDetails
   }
 
 ];
