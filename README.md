@@ -1,24 +1,7 @@
-# claseprueba
 
-## Project setup
-```
-npm install
-```
+Implemetacion de Codigo Rick And Morty en VUE para la clase de Programacion Orientada a la web, utilizando la API: The Rick and Morty API.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Se tiene como base los commits que se han realizado como evidencia del trabajo elaborado.
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Moises Buitrago Mosquera
