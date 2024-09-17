@@ -25,7 +25,18 @@
 </script>
 
 <style scoped>
-
+/* Estilo de imagen de fondo, se encuentra globllllllal - Moises */
+body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      background-image: url('@/assets/rick.jpg');
+      /*background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;*/
+      color: #ffffff;
+    }
+    
   header {
     background-color: #012a4a;
     color: #fff;

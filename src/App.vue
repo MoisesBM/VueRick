@@ -8,7 +8,7 @@
 
 <script>
 import { defineComponent } from 'vue';
-import AppNavegador from './components/AppNavegador.vue';
+import AppNavegador from './layouts/AppNavegador.vue';
 
 
 export default defineComponent({
@@ -26,9 +26,9 @@ export default defineComponent({
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
       background-image: url('@/assets/rick.jpg');
-      background-size: cover;
+      /*background-size: cover;
       background-position: center;
-      background-repeat: no-repeat;
+      background-repeat: no-repeat;*/
       color: #ffffff;
     }
 </style>

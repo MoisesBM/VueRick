@@ -18,15 +18,6 @@
   </script>
   
   <style scoped>
-  /* Add layout-specific styles here */
-  header {
-    background-color: #f8f9fa;
-    padding: 10px;
-  }
-  footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-  }
+
   </style>
   

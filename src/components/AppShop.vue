@@ -61,16 +61,17 @@ header {
 
 .catalog {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    width: 90%;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 50px;
+    width: 100%;
     max-width: 1200px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
 .game-card {
+  
     border: #67b5e6 5px solid;
     background-color: #fff;
     border-radius: 12px;
@@ -112,7 +113,7 @@ header {
     margin: 10px 0;
 }
 
-@media (max-width: 1200px) {
+/*@media (max-width: 1200px) {
     .catalog {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -128,5 +129,5 @@ header {
     .catalog {
         grid-template-columns: 1fr;
     }
-}
+}*/
 </style>
