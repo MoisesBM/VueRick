@@ -67,41 +67,6 @@ header {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap; 
-}
-
-nav li {
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  padding: 10px;
-  border-radius: 8px;
-  transition: background 0.3s ease;
-}
-
-nav a:hover {
-  background-color: #67b5e6;
-  color: #fff;
-}
-
-nav a i {
-  margin-right: 8px;
-}
-
-
 #charactersContainer {
   display: grid;
   font-weight: bold;
@@ -180,69 +145,17 @@ nav a i {
   text-align: center;
 }
 
-#capsDetails ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 10px;
-}
-
-#capsDetails ul li a {
-  display: block;
-  padding: 5px 1px;
-  background: linear-gradient(135deg, #284eaf, #284eaf);
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#capsDetails ul li a:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-}
-
-#capsDetails ul li a:active {
-  transform: scale(0.98);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
 
 
 @media (max-width: 768px) {
   #charactersContainer {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
 }
 
 @media (max-width: 599px) {
   #charactersContainer {
     grid-template-columns: 1fr;
-  }
-
-  #capsDetails ul {
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  }
-
-  nav ul {
-    gap: 10px;
-  }
-
-  header {
-    padding: 10px;
   }
 }
   </style>

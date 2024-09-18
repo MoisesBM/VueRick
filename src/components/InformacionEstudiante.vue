@@ -7,7 +7,7 @@
         <div class="container">
           <div class="info-container">
             <img src="@/assets/persona.png" alt="usc" />
-           <!--<img :src="datos.perfil" alt="persona" />-->
+           <!--<img :src="datos.perfil" alt="persona">-->
             <h2>Información de Desarrollador:</h2>
             <p><span class="desarrollo">Nombre:</span> <span>{{ datos.nombre }}</span></p>
             <p><span class="desarrollo">Carrera:</span> <span>{{ datos.carrera }}</span></p>
@@ -51,72 +51,6 @@
   </script>
   
   <style scoped>
-  body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url('@/assets/rick.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #333;
-  }
-  
-  header {
-    background-color: #012a4a;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    color: #1f77b4;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    flex-wrap: wrap;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    padding: 12px 20px;
-    border-radius: 20px;
-    transition: background 0.3s ease, transform 0.2s ease;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  }
-  
-  nav a i {
-    margin-right: 8px;
-  }
-  
-  nav a:hover {
-    background-color: #1f77b4;
-    color: #fff;
-    transform: scale(1.05);
-  }
-  
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -127,13 +61,13 @@
   
   .info-container {
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 10rem;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
     padding: 20px;
-    width: 45%;
+    width: 40%;
     margin-bottom: 20px;
     text-align: center;
-    border: 2px solid #1f77b4;
+    border: 10px solid #1f77b4;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     min-height: 450px;
     display: flex;
@@ -160,12 +94,12 @@
   .info-container h2 {
     font-size: 28px;
     color: #1f77b4;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
   
   .info-container p {
     font-size: 18px;
-    margin: 10px 0;
+    margin: 7px 0;
     color: #555;
   }
   

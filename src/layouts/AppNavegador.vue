@@ -5,7 +5,7 @@
         <nav>
           <ul>
             <li><a href="/"><i class="fas fa-home"></i>Inicio</a></li>
-            <li><a href="/shop"><i class="fas fa-store"></i>Shop</a></li>
+            <li><a href="/CatalogoVideojuegos"><i class="fas fa-store"></i>Shop</a></li>
             <li><a href="/info"><i class="fa-sharp-duotone fa-solid fa-circle-exclamation"></i>Informacion</a></li>
             <div class="menu-hamburger" id="menuToggle">
               <i class="fa-solid fa-burger"></i>
@@ -25,16 +25,19 @@
 </script>
 
 <style scoped>
-/* Estilo de imagen de fondo, se encuentra globllllllal - Moises */
+/* Estilo de imagen de fondo, se encuentra global - Moises */
 body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
       background-image: url('@/assets/rick.jpg');
+
       /*background-size: cover;
       background-position: center;
       background-repeat: no-repeat;*/
+      
       color: #ffffff;
+
     }
     
   header {
@@ -95,6 +98,7 @@ body {
   
   .menu-hamburger {
     display: flex;
+    visibility: hidden;
     position: absolute;
     top: 20px;
     left: 20px;
@@ -104,8 +108,15 @@ body {
 }
 
 @media (max-width: 900px) {
-    .menuToggle {
-        display: block; 
-    }
+  .menu-hamburger {
+    display: flex;
+    visibility: visible;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
 }
   </style>

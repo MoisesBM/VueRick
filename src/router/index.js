@@ -4,6 +4,7 @@ import RickAndMorty from '../components/RickAndMorty.vue';
 import InformacionEstudiante from '../components/InformacionEstudiante.vue';
 import AppShop from '@/components/AppShop.vue';
 import CharacterDetails from '@/components/CharacterDetails.vue';
+import CatalogoVideojuegos from '@/components/CatalogoVideojuegos.vue';
 
 const routes = [
   {
@@ -17,7 +18,7 @@ const routes = [
     component: InformacionEstudiante
   },
   {
-    path: '/shop',
+    path: '/test',
     name: 'AppShop',
     component: AppShop
   },
@@ -25,6 +26,11 @@ const routes = [
     path: '/CharacterDetails',
     name: 'CharacterDetails',
     component: CharacterDetails
+  },
+  {
+  path: '/CatalogoVideojuegos',
+  name: 'CatalogoVideojuegos',
+  component: CatalogoVideojuegos
   }
 
 ];

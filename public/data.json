@@ -1,23 +1,24 @@
 [
-    {
-      "id": 1,
-      "title": "The Legend of Zelda: Breath of the Wild",
-      "price": 59.99,
-      "image": "@/assets/zelda.jpg",
-      "description": "Un juego de aventuras en mundo abierto donde los jugadores asumen el rol de Link para salvar a Hyrule."
-    },
+  {
+    "id": 1,
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "price": 59.99,
+    "image": "https://www.nintendo.com/eu/media/images/10_share_images/portals_3/2x1_Hub_TheLegendOfZelda_ToTK.jpg",
+    "description": "Un juego de aventuras en mundo abierto donde los jugadores asumen el rol de Link para salvar a Hyrule."
+  },
+  
     {
       "id": 2,
       "title": "Red Dead Redemption 2",
       "price": 49.99,
-      "image": "@/assets/games/red.avif",
+      "image": "https://store-images.s-microsoft.com/image/apps.58752.13942869738016799.078aba97-2f28-440f-97b6-b852e1af307a.95fdf1a1-efd6-4938-8100-8abae91695d6?q=90&w=480&h=270",
       "description": "Un juego de acción en un mundo abierto ambientado en el salvaje oeste, con una narrativa inmersiva."
     },
     {
       "id": 3,
       "title": "Minecraft",
       "price": 26.95,
-      "image": "@/assets/games/mine.avif",
+      "image": "https://www.minecraft.net/content/dam/games/minecraft/key-art/MC-Vanilla_Media-Block-Image_PC-Bundle-Keyart_800x450.jpg",
       "description": "Un juego de construcción y supervivencia donde los jugadores pueden crear y explorar mundos generados aleatoriamente."
     },
     {
@@ -31,77 +32,77 @@
       "id": 5,
       "title": "Fortnite",
       "price": 0,
-      "image": "@/assets/fort.jpg",
+      "image": "https://cdn2.unrealengine.com/fortnite-rubius-cup-1920x1080-596cccecf84b.jpg",
       "description": "Un juego multijugador de batalla real que combina la construcción con la acción en tercera persona."
     },
     {
       "id": 6,
       "title": "The Witcher 3: Wild Hunt",
       "price": 39.99,
-      "image": "@/assets/wit.avif",
+      "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000033071/3f7ee6aa3482b514bd443e116022b038a9728f017916ed37da3f09f731a7d5f2",
       "description": "Un juego de rol en un mundo abierto lleno de criaturas, donde los jugadores encarnan al cazador de monstruos Geralt de Rivia."
     },
     {
       "id": 7,
       "title": "Cyberpunk 2077",
       "price": 49.99,
-      "image": "@/assets/cyber.avif",
+      "image": "https://i.blogs.es/b109e9/cyberpunk2077-johnny-v-rgb_en/1366_2000.jpg",
       "description": "Un juego de rol y acción ambientado en un futuro distópico donde los jugadores exploran la ciudad de Night City."
     },
     {
       "id": 8,
       "title": "Animal Crossing: New Horizons",
       "price": 59.99,
-      "image": "@/assets/animal.jpg",
+      "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000027619/9989957eae3a6b545194c42fec2071675c34aadacd65e6b33fdfe7b3b6a86c3a",
       "description": "Un juego de simulación de vida donde los jugadores pueden construir su isla, interactuar con animales y gestionar su comunidad."
     },
     {
       "id": 9,
       "title": "Call of Duty: Modern Warfare",
       "price": 59.99,
-      "image": "@/assets/call.jpeg",
+      "image": "https://image.api.playstation.com/cdn/UP0002/CUSA15239_00/CpIKiv8qH20F6my7atxQIzW0zJ79WiB0.png",
       "description": "Un juego de disparos en primera persona centrado en la guerra moderna, con intensas campañas y modos multijugador."
     },
     {
       "id": 10,
       "title": "Super Mario Odyssey",
       "price": 59.99,
-      "image": "@/assets/mario.avif",
+      "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000001130/c42553b4fd0312c31e70ec7468c6c9bccd739f340152925b9600631f2d29f8b5",
       "description": "Un juego de plataformas en 3D donde Mario viaja por diversos mundos para rescatar a la princesa Peach."
     },
     {
       "id": 11,
       "title": "Overwatch 2",
       "price": 39.99,
-      "image": "@/assets/button.jpg",
+      "image": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_Overwatch2_Season6_image1600w.png",
       "description": "Un juego multijugador de disparos en equipos, con héroes únicos y habilidades especiales."
     },
     {
       "id": 12,
       "title": "Hades",
       "price": 24.99,
-      "image": "@/assets/hades.avif",
+      "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000033131/dbc8c55a21688b446a5c57711b726956483a14ef8c5ddb861f897c0595ccb6b5",
       "description": "Un juego de acción tipo roguelike donde los jugadores intentan escapar del inframundo controlando a Zagreus, el hijo de Hades."
     },
     {
       "id": 13,
       "title": "Among Us",
       "price": 4.99,
-      "image": "@/assets/amoung.jpeg",
+      "image": "https://static.wixstatic.com/media/8c48d8_14a87ebb765d40e19a9b100268f1da7a~mv2.jpg/v1/fill/w_992,h_558,al_c,q_85/8c48d8_14a87ebb765d40e19a9b100268f1da7a~mv2.jpg",
       "description": "Un juego multijugador donde los jugadores deben descubrir quién es el impostor mientras completan tareas en una nave espacial."
     },
     {
       "id": 14,
       "title": "Halo Infinite",
       "price": 59.99,
-      "image": "@/assets/halo.avif",
+      "image": "https://generacionxbox.com/wp-content/uploads/2023/10/halo-infinite.jpg",
       "description": "Un juego de disparos en primera persona que continúa la legendaria saga de Halo con nuevas mecánicas de combate y mundos abiertos."
     },
     {
       "id": 15,
       "title": "Resident Evil Village",
       "price": 59.99,
-      "image": "@/assets/village.jpeg",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png",
       "description": "Un juego de terror y supervivencia donde los jugadores exploran un oscuro pueblo lleno de peligros y criaturas monstruosas."
     }
   ]
