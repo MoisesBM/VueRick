@@ -1,23 +1,10 @@
 <template>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <div id="app">
-    <AppNavegador />
     <router-view></router-view>
   </div>
 </template>
 
-<script>
-import { defineComponent } from 'vue';
-import AppNavegador from './layouts/AppNavegador.vue';
-
-
-export default defineComponent({
-  name: 'App',
-  components: {
-    AppNavegador, 
-  },
-});
-</script>
 
 <style>
 /* Estilo de imagen de fondo, se encuentra global - Moises */
